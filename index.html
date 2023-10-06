@@ -1,0 +1,231 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WV Web </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <img src="images/Wv logo.jpg" alt="logo van de wilde vaart">
+        <a href="https://leiferikson.nl/wilde_vaart.php" target="_blank">agenda</a>
+        <a href="#commissies">commissies</a>
+        <a href="#commissies">bestuur</a>
+        <a href="#contact">contact</a>
+        <a href="#contact">ideeën</a>
+
+
+
+    </nav>
+    <header>
+
+        <h1>Wilde Vaart Web</h1>
+
+        <p>welkom op het Wilde Vaart web. hier kan je alle informatie vinden van de Wilde Vaart van Scouting groep leif
+            Erikson.</p>
+
+
+
+
+        <div class="buttonsheader">
+            <a href="https://leiferikson.nl/wilde_vaart.php" target="_blank">Scouting Website</a>
+            <a href="#contact">contact</a>
+
+
+
+
+        </div>
+
+    </header>
+    <main>
+        <h2 id="commissies">Commissies</h2>
+
+
+
+        <section class="subheading">
+            <div class="card">
+                <img src="images/bestuurgroepsfoto.jpg" alt="groepsfoto van het bestuur">
+                <h3>Bestuur</h3>
+                <p> het bestuur zorgd ervoor dat alles goed verloopt binnen de wilde vaart. in het
+                    bestuur hebben we Geert als voorzitter, David als vise-Voorzitter, joep als notulist,Annalief
+                    als penningmeesteres en Eline als Eerste jaars bestuurslid</p>
+                <a href="https://leiferikson.nl/wilde_vaart.php" target="_blank">meer informatie</a>
+
+
+
+            </div>
+            <div class="card">
+                <img src="images/barcogroepsfoto.jpg" alt="groepsfoto van de barcommisie">
+                <h3>barcommissie</h3>
+                <p>dit is de bardommisie. hierin zitten Lucas, Joep, Gabrielle, Joran en Stijn. de bardommisie zorgd
+                    ervoor dat er elke zaterdag genoeg drinken is op de scouting. ook speelt de barcommisie een
+                    crusialle rol tijdens scoutingfeesten.</p>
+                <a href="https://leiferikson.nl/wilde_vaart.php" target="_blank">meer informatie</a>
+
+            </div>
+            <div class="card">
+                <img src="images/feestcogroepsfoto.jpg" alt="groepsfoto van de feestcommisie">
+                <h3>feestcommissie</h3>
+                <p> dit is de feestcommisie. hierin zitten Geert, David, Joep, Eline. de feestcommisie zorgd ervoor dat
+                    er gave feesten met unieke themas worden voorbereid voor op de scouting. de hele regio word
+                    uitgenodigd voor dit soort feesten </p>
+                <a href="https://leiferikson.nl/wilde_vaart.php" target="_blank">meer informatie</a>
+
+            </div>
+
+
+        </section>
+        <section class="Contactformulier">
+            <h2 id="contact">contact</h2>
+
+            <form>
+
+                <div class="names">
+                    <div class="questionname">
+                        <label for="first-name">Voornaam:</label>
+                        <input type="text" id="first-name" name="name" placeholder="VoorNaam" required>
+                    </div>
+                    <div class="questionname">
+                        <label for="Last-name">Achternaam:</label>
+                        <input type="text" id="Last-name" name="name" placeholder="Achternaam" required>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="e-mail" required>
+                </div>
+
+                <div class="names">
+                    <div class="questionname">
+                        <label for="adress">Woonplaats</label>
+                        <input type="text" id="adress" name="city" placeholder="Woonplaats" required>
+                    </div>
+
+                    <div class="questionname">
+                        <label for="birthdate">GeboorteDatum</label>
+                        <input type="date" id="birthdate" name="birthdate" placeholder="dd-mm-jjjj" required>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label for="sendto">Commiesie</label>
+                    <select id="sendto" name="send-to" required>
+                        <option value="bug">begeleiding</option>
+                        <option value="Bestuur">Bestuur</option>
+                        <option value="Bar">Bar</option>
+                        <option value="Feest">Feest</option>
+                        <option value="WVcup">WV-cup</option>
+                        <option value="Media">Media team</option>
+                        <option value="varend">TS varend</option>
+                        <option value="lokaal">TS Lokaal</option>
+                        <option value="kamp">Kampco</option>
+                        <option value="WVcup">WV-cup</option>
+                        <option value="activiteit">activiteitenco</option>
+                        <option value="kleding">Jaarkledingstuk</option>
+                        <option value="inkom">inkomkomcommissie</option>
+
+
+
+
+
+                    </select>
+                </div>
+
+
+
+                <div class="open">
+                    <label for="jouwvraag">Jouw vraag:</label>
+                    <textarea type="text" id="jouwvraag" rows="10" name="question" required></textarea>
+                </div>
+
+                <section class="newsletter">
+                    <label for="Algemeen">Inschrijven voor de nieuwsbrief?</label>
+
+                    <div class="radiobuttons">
+                        <div class="radiobutton1">
+                            <input type="radio" id="ja" name="category" value="ja" required>
+                            <label for="ja">ja</label>
+                        </div>
+                        <div class="radiobutton2">
+                            <input type="radio" id="nee" name="category" value="nee" required>
+                            <label for="nee">nee</label>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="checkbox1">
+                    <input type="checkbox" id="akkoord" name="akkoord" value="akkoord" required>
+                    <label for="akkoord">Ik ga akkoord met de algemene voorwaarden</label>
+                </div>
+
+
+                <button type="submit">Versturen</button>
+
+
+
+
+
+
+            </form>
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+    </main>
+    <footer>
+
+        <div class="logo">
+            <img src="images/Wv logo.jpg" alt="logo van de wilde vaart">
+
+            <div class="logos">
+                <a href="https://www.instagram.com/wildevaart_leiferikson/" class="fa fa-instagram"></a>
+                <a href="https://leiferikson.nl/wilde_vaart.php" class="fa fa-google"></a>
+            </div>
+        </div>
+
+
+        <div class="legal">
+            <div class="legalname"> Gemaakt door Geert van der Velden</div>
+            <div class="legalstuff">privacyverklaring</div>
+            <div class="legalstuff">algemene voorwaarden</div>
+            <div class="legalstuff">coockiebeleid</div>
+            <div class="legalstuff">Contact</div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
